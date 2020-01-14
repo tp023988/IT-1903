@@ -1,0 +1,10 @@
+table
+{
+ border-collapse: collapse;
+ text-align:center;
+}
+
+td
+{
+  border-top: 3px solid green;
+}
