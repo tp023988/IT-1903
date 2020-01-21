@@ -13,3 +13,24 @@ td
 {
   color: red;
 }
+
+.imageClass
+{
+  border-style: dotted;
+  border-width: 3px;
+  float:left;
+  margin: 5px 10px 15px 20px;
+  padding: 25px 30px 35px 40px;
+}
+p
+{
+  font-family: "Times New Roman", Times, serif;
+}
+body
+{
+  font-family: "Helvetica", sans-serif;
+}
+.jsFunction
+{
+  font-size: large;
+}
