@@ -11,19 +11,43 @@ This is Week 2 lesson 1 website
 
 <title>IT-1906</title>
 <link rel="stylesheet" type="text/css"  href="style.css">
+<script src="javascript.js"></script>
+<script>
+  function function_1()
+  {
+    //console.log("internal script 1")
+    //alert("internal script 2")
+    let h1_text = document.querySelector("h1").innerHTML
+    if(!h1_text.includes("(C1 352)"))
+    {
+      h1_text = "introduction to web (C1 352)"
+    }
+    else
+    {
+        console.log("already changed")
+    }
+    document.querySelector("h1").innerHTML = h1_text
+  }
+</script>
 </head>
 <body>
 <h1>introduction to web (C1 358)</h1>
 <hr>
-<p class="schedule"><h2><a href="#L1,2">Lesson 1</a></h2> is on <em>Tuesday</em> starts at 14.00 and ends at 14.50</p>
+<p class="jsFunction" id="textNumbers">2020</p>
+<p class="jsFunction" id="result"></p>
+<button type="button" onclick="function_1()" id="button_1">button 1</button>
+<button type="button" onclick="function_2()" id="button_2">button 2</button>
 <hr>
-<p class="schedule"><h2><a href="#L1,2">Lesson 2</a></h2> is on <em>Tuesday</em> starts at 16.00 and ends at 16.50</p>
+<h2><a href="#L1,2">Lesson 1</a></h2>
+<p class="schedule">is on <em>Tuesday</em> starts at 14.00 and ends at 14.50</p>
 <hr>
-<p class="schedule"><h2>Lesson 3</h2> is on <em>Thursday</em> starts at 14.00 and ends at 14.50</p>
+<h2><a href="#L1,2">Lesson 2</a></h2><p class="schedule">is on <em>Tuesday</em> starts at 16.00 and ends at 16.50</p>
 <hr>
-<p class="schedule"><h2>Lesson 4</h2> is on <em>Friday</em> starts at 14.00 and ends at 14.50</p>
+<h2>Lesson 3</h2><p class="schedule"> is on <em>Thursday</em> starts at 14.00 and ends at 14.50</p>
 <hr>
-<p class="schedule"><h2>Lesson 5</h2> is on <em>Friday</em> starts at 15.00 and ends at 15.50</p>
+<h2>Lesson 4</h2><p class="schedule"> is on <em>Friday</em> starts at 14.00 and ends at 14.50</p>
+<hr>
+<h2>Lesson 5</h2><p class="schedule"> is on <em>Friday</em> starts at 15.00 and ends at 15.50</p>
 <hr>
 <hr>
 <br>
@@ -225,16 +249,43 @@ Farewell to the torrents and loud-pouring floods.
   <p>  </p>
   <p></p>
   <p></p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
-  <p>&nbsp</p>
 </div>
+<p>
+  <img src="2.jpg" class="imageClass" width="333" height="222" alt="Qaiyndy" title="Qaiyndy lake" />
+  Lake Kaindy in southern Kazakhstan is one of the newest and most unique natural wonders on our planet. Although
+  literally unknown in the West, if it was located in any European country, it would be its best tourist attraction. Especially beautiful in the fall (autumn),
+   Lake Kaindy boasts not only exceptionally attractive blue color of water and snowy rocky mountains
+  surrounding it but also the unique, silver trunks of dead spruce sticking out of the lake's surface. The "flooded forest" is indeed one of the natural
+  landmarks of Kazakhstan. It all creates a fairy-tale like scenery, not seen anywhere else.
+  &COPY<a href="https://www.adventurous-travels.com/posts/lake-kaindy-kazakhstan-one-of-the-most-unique-lakes-in-the-world">Kaiyndy&nbsplake</a>
+  <br  style="clear:both;" />
+</p>
+<p>
+  <img src="3.jpg" class="imageClass" width="333" height="128" alt="Zaisan" title="Zaisan lake" />
+  The Republic of Kazakhstan, situated at the heart of
+  Eurasia, appeared on the geopolitical map in 1991.
+  The name Kazakh, of Turkic origin, is thought to mean
+  “free man” – which is appropriate in a land historically
+  populated by freedom-loving nomads.
+  For thousands of years, these nomads tended vast cattle
+  herds, pasture lands and the fertile soils of the
+  region’s foothills and river valleys. Both the historic
+  Silk Road and Sable Route, along which expensive furs
+  were transported, passed through the region. This made
+  Kazakhstan an important cultural, trade and economic
+  bridge between Asia and Europe.
+  &COPY<a href="https://airastana.com/tur/en-us/Information/Travel-to-Kazakhstan/About-Kazakhstan">air&nbspastana</a>
+  <br style="clear:both;" />
+</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
 </body>
 </html>
