@@ -45,6 +45,6 @@
 
 .formClass
 {
-  position:relative;
-  top:50px;
+  position:absolute;
+  top: 15%;
 }
