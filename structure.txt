@@ -1,0 +1,7 @@
+title
+schedule
+lists
+table
+text elements
+images
+buttons
